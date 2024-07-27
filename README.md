@@ -1,34 +1,23 @@
-# Nexus Pioneers Documentation
+# GitHub Repository Anleitung
 
-Willkommen bei der Dokumentation und den Ressourcen des Miniteams Nexus Pioneers!
+## Einrichtung eines GitHub-Repositories
 
-## Inhalt
-- [Über uns](#über-uns)
-- [Projektstruktur](#projektstruktur)
-- [Richtlinien](#richtlinien)
-- [Kontakt](#kontakt)
+Hier sind die Schritte, um ein GitHub-Repository für unsere Dokumentation einzurichten:
 
-## Über uns
-Das Miniteam Nexus Pioneers ist eine Gruppe von Entwicklern und Designern, die an innovativen Projekten arbeitet, um virtuelle Welten zu schaffen.
+### 1. Erstellen eines GitHub-Kontos
+Falls du noch keinen GitHub-Account hast, erstelle einen unter [GitHub Sign Up](https://github.com/join).
 
-## Projektstruktur
-- **docs/**: Detaillierte Dokumentationen
-- **scripts/**: Hilfsskripte und Tools
-- **assets/**: Bilder und andere Ressourcen
+### 2. Erstellen eines neuen Repositorys
+- Gehe auf die GitHub-Website und logge dich in deinen Account ein.
+- Klicke oben rechts auf das Plus-Symbol (+) und wähle "New repository".
+- Gib dem Repository einen Namen, z.B. `Nexus-Pioneers-Documentation`.
+- Wähle, ob das Repository öffentlich oder privat sein soll. Ein privates Repository ist nur für Teammitglieder sichtbar.
+- Optional: Füge eine README-Datei hinzu, um die Grundstruktur zu erstellen.
+- Klicke auf "Create repository".
 
-## Richtlinien
-Bitte befolgen Sie die folgenden Richtlinien für die Zusammenarbeit:
-- **Commit-Nachrichten**: Verwenden Sie klare und präzise Commit-Nachrichten.
-- **Branching**: Arbeiten Sie in Feature-Branches und stellen Sie sicher, dass der Haupt-Branch stabil bleibt.
-- **Code Reviews**: Jeder Code sollte vor dem Mergen überprüft werden.
-
-## Kontakt
-Falls Sie Fragen oder Anmerkungen haben, wenden Sie sich bitte an:
-- Julia: julia@example.com
-- Max: max@example.com
-- Tobi: tobi@example.com
-
-<!---
-NexusProton/NexusProton is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+### 3. Klonen des Repositorys auf deinem lokalen Rechner
+- Öffne ein Terminal (oder die Git-Bash, wenn du Windows verwendest).
+- Navigiere zu dem Verzeichnis, in dem du das Repository klonen möchtest.
+- Führe den folgenden Befehl aus (ersetze `<your-username>` und `<repository-name>` durch die entsprechenden Werte):
+  ```sh
+  git clone https://github.com/<your-username>/<repository-name>.git
