@@ -1,6 +1,6 @@
 # Tägliche Stand-up-Besprechung - Zusammenfassung
 
-**Datum:** [Datum einfügen]
+**Datum:** [24. Juli 2024]
 
 ## Teilnehmer
 - **Boss**
