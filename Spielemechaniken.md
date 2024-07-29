@@ -31,3 +31,8 @@ Lasst uns über neue Gameplay-Mechaniken sprechen, die unser Spiel spannender ma
 - **Stat-Tracking**: Verfolgung und Anzeige von Statistiken, z.B. besuchte Räume, gesammelte Schätze oder besiegte Feinde.
 
 Welche dieser Mechaniken findest du besonders spannend oder hast du eigene Ideen, die wir besprechen und möglicherweise umsetzen könnten?
+
+## 8. Transportaufgaben
+- **Punkt A nach Punkt B**: Aufgaben, bei denen der Spieler Gegenstände von einem Punkt A zu einem Punkt B bringen muss. Diese Punkte können auf beliebigen Stockwerken liegen, was das Navigieren und Finden der effizientesten Route erfordert.
+- **Mehrstufige Aufgaben**: Einige Aufgaben könnten mehrere Schritte umfassen, bei denen der Spieler mehrere Gegenstände in einer bestimmten Reihenfolge an verschiedene Orte bringen muss, um eine Belohnung oder den Fortschritt freizuschalten.
+
