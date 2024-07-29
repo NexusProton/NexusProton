@@ -36,3 +36,95 @@ Welche dieser Mechaniken findest du besonders spannend oder hast du eigene Ideen
 - **Punkt A nach Punkt B**: Aufgaben, bei denen der Spieler Gegenstände von einem Punkt A zu einem Punkt B bringen muss. Diese Punkte können auf beliebigen Stockwerken liegen, was das Navigieren und Finden der effizientesten Route erfordert.
 - **Mehrstufige Aufgaben**: Einige Aufgaben könnten mehrere Schritte umfassen, bei denen der Spieler mehrere Gegenstände in einer bestimmten Reihenfolge an verschiedene Orte bringen muss, um eine Belohnung oder den Fortschritt freizuschalten.
 
+## Implementierung von Items
+
+### 1. Platzierung von Items
+
+**Items anstelle von Wänden:**
+- Einige Wände im Labyrinth werden durch Items ersetzt, die der Spieler einsammeln kann.
+- Diese Items könnten verschiedene Funktionen haben, z.B. Schlüssel, Power-Ups, Hinweise oder Punkte.
+
+### 2. Arten von Items
+
+**Schlüssel:**
+- Schlüssel werden benötigt, um verschlossene Türen oder Tore im Labyrinth zu öffnen.
+
+**Power-Ups:**
+- Power-Ups könnten dem Spieler zeitlich begrenzte Fähigkeiten verleihen, z.B. schnelleres Laufen, Unverwundbarkeit oder das Aufdecken des Labyrinths.
+
+**Hinweise:**
+- Hinweise können dem Spieler Informationen über den richtigen Weg oder versteckte Bereiche geben.
+
+**Punkte:**
+- Punkte-Items könnten einfache Punkte für den Highscore des Spielers sein.
+
+### 3. Implementierung in den Maze Generator
+
+**Maze Generator Anpassung:**
+- Der Maze Generator wird so angepasst, dass er zufällig einige Wände durch Items ersetzt.
+- Diese Items werden auf den Stockwerken gleichmäßig verteilt, damit der Spieler ermutigt wird, alle Bereiche zu erkunden.
+
+### 4. Zusätzliche Mechaniken
+
+**Item-Abhängigkeiten:**
+- Bestimmte Bereiche des Labyrinths können nur erreicht werden, wenn der Spieler bestimmte Items eingesammelt hat, z.B. Schlüssel für verschlossene Türen.
+
+**Item-Respawn:**
+- Items könnten nach einer gewissen Zeit wieder erscheinen, um das Spiel herausfordernder zu machen.
+
+### 5. Integration in das Spiel
+
+**UI-Anzeige:**
+- Eine Benutzeroberfläche zeigt dem Spieler, welche und wie viele Items eingesammelt wurden.
+- Hinweise und Aufgaben könnten ebenfalls über die UI angezeigt werden.
+
+**Soundeffekte:**
+- Jeder Item-Typ hat einen eigenen Soundeffekt, der abgespielt wird, wenn das Item eingesammelt wird.
+
+### Beispielcode
+
+```csharp
+using UnityEngine;
+
+public class MazeGenerator : MonoBehaviour
+{
+    public GameObject wallPrefab;
+    public GameObject[] itemPrefabs; // Array von verschiedenen Item-Prefabs
+    public int mazeWidth = 10;
+    public int mazeHeight = 10;
+    public int numberOfItems = 5; // Anzahl der Items im Labyrinth
+
+    private void Start()
+    {
+        GenerateMaze();
+    }
+
+    private void GenerateMaze()
+    {
+        for (int x = 0; x < mazeWidth; x++)
+        {
+            for (int z = 0; z < mazeHeight; z++)
+            {
+                Vector3 position = new Vector3(x, 0, z);
+                if (Random.value > 0.1f) // 90% Chance, dass eine Wand platziert wird
+                {
+                    Instantiate(wallPrefab, position, Quaternion.identity);
+                }
+            }
+        }
+
+        PlaceItems();
+    }
+
+    private void PlaceItems()
+    {
+        for (int i = 0; i < numberOfItems; i++)
+        {
+            int x = Random.Range(0, mazeWidth);
+            int z = Random.Range(0, mazeHeight);
+            Vector3 position = new Vector3(x, 0, z);
+            GameObject itemPrefab = itemPrefabs[Random.Range(0, itemPrefabs.Length)];
+            Instantiate(itemPrefab, position, Quaternion.identity);
+        }
+    }
+}
