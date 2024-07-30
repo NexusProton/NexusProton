@@ -59,6 +59,7 @@ Die Projektstruktur in Unity ist so aufgebaut, dass alle notwendigen Komponenten
 - **Dokumentation:** Erstellung und Pflege von Dokumentationen, um den Überblick über den Projektfortschritt und die einzelnen Komponenten zu behalten.
 
 ## Kontakt
+Nexus.Pioneers@gmx.net
 Für Fragen oder weitere Informationen, kontaktiere bitte den Boss oder eines der Teammitglieder.
 
 ## Einrichtung eines GitHub-Repositories
