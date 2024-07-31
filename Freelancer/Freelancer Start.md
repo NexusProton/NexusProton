@@ -1,6 +1,6 @@
 ## Freelancer
 
-Die Präsenz des Miniteams in der realen Welt erweitern. Ich werde versuchen, das Team als Freelancer (Freiberufler).
+Die Präsenz des Miniteams in der realen Welt erweitern, das Team als Freelancer (Freiberufler).
 
 ### Tipps für die Repräsentation als Freelancer:
 
