@@ -47,4 +47,4 @@ Die Präsenz des Miniteams in der realen Welt erweitern. Ich werde versuchen, da
 Ich hoffe, diese Tipps sind hilfreich für dich! Viel Erfolg bei der Repräsentation des Miniteams als Freelancer!
 
 Beste Grüße,
-[Dein Name]
+[Aytekin Sahin]
