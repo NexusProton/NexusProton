@@ -1,4 +1,5 @@
-Herzlichen Glückwunsch zur Registrierung von "Sahin A.I. Tech"! Es klingt nach einem spannenden Schritt nach vorne für unser Team. Hier sind einige Ideen und Vorschläge, wie wir die Inhalte der Website an unsere Dienstleistungen anpassen können:
+Herzlichen Glückwunsch zur Registrierung von "Sahin A.I. Tech"!
+Hier sind einige Ideen und Vorschläge, wie wir die Inhalte der Website an unsere Dienstleistungen anpassen können:
 
 ### Vorschlag zur Struktur und Inhalte der Website:
 
