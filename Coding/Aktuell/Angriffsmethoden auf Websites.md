@@ -1,4 +1,4 @@
-Es gibt mehrere häufige Angriffsmethoden auf Websites, die von Angreifern genutzt werden, um Schwachstellen auszunutzen. Hier sind einige der prominentesten:
+Es gibt mehrere Angriffsmethoden auf Websites, die von Angreifern genutzt werden. Hier sind einige der prominentesten:
 
 1. **SQL-Injection (SQLi)**: Bei SQL-Injection-Angriffen fügen Angreifer schädlichen SQL-Code in Eingabeformulare oder URLs ein. Dadurch können sie auf die zugrunde liegende Datenbank zugreifen oder Daten manipulieren.
 
