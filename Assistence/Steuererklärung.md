@@ -8,7 +8,7 @@ Die Bearbeitung der jährlichen Steuererklärung ist für viele Bürgerinnen und
 In vielen Fällen können Ausgaben für Handwerker:innen, Reinigungskräfte oder sogar Au-pairs steuerlich geltend gemacht werden – entweder als Handwerkerleistungen oder haushaltsnahe Dienstleistungen. Doch wenn die Bezahlung bar erfolgt, bleiben Steuerzahler:innen auf den Kosten sitzen. Selbst das Aufbewahren von Rechnungen ist hierbei nicht ausreichend: Ohne einen Nachweis über die Zahlung per Bankkonto gibt es keine Möglichkeit, Steuervorteile zu erhalten. Eben aus diesem Grund sollten derartige Leistungen immer per Überweisung bezahlt werden.
 
 ## 2. Kosten an den _richtigen_ Stellen eintragen
-Selbst finanzierte Fortbildungen wurden in der Steuererklärung fälschlicherweise als allgemeine Werbungskosten angegeben, anstatt unter Weiterbildung. Gleiches gilt für Handwerkerleistungen, die irrtümlicherweise unter außergewöhnliche Belastungen eingetragen wurden. Diese Fehler unterlaufen vielen.
+Selbstfinanzierte Fortbildungen wurden in der Steuererklärung fälschlicherweise als allgemeine Werbungskosten angegeben, anstatt unter Weiterbildung. Gleiches gilt für Handwerkerleistungen, die irrtümlicherweise unter außergewöhnliche Belastungen eingetragen wurden. Diese Fehler unterlaufen vielen.
 
 Expert:innen erklären, dass das Finanzamt zwar die Kosten aus den falschen Zeilen streicht, sie jedoch nicht an die richtige Stelle einträgt. Dadurch bleibt eine mögliche Rückerstattung aus. Es ist daher wichtig, die Angaben in der Steuererklärung sorgfältig zu überprüfen und korrekt anzugeben, um finanzielle Einbußen zu vermeiden.
 
