@@ -2,6 +2,9 @@ Die 5 Vor- und Nachteile der Selbstständigkeit
 von Nina Jerzy
 20. Mai 2019 , aktualisiert 20. Mai 2019, 17:11 Uhr
 
+# Selbstständigkeit
+Ausweg aus der Arbeitslosigkeit
+
 Selbstständigkeit ist die ultimative Freiheit – kommt aber mit ihren ganz eigenen Herausforderungen. Der Gang in die Selbstständigkeit muss gut überlegt sein. Das sollten Freiberufler beachten.
 
 Selbstständigkeit klingt immer noch ein wenig, als hätte man es geschafft. Sie krönt eine Karriere, sorgt für ultimative Unabhängigkeit, Anerkennung und einen angenehmen Lebensstil. All das kann wahr sein, auch jenseits der Unicorn-Schiene. Der vermeintliche Glanz der Ich-AG ist für Solo-Selbstständige aber längst verflogen. Für sie wird der Alltag zum ständigen Balanceakt aus Anspruch und Realitätssinn. Denn wenn nur eine Person die ganze Arbeit erledigen muss, sind dem Wachstum natürliche Grenzen gesetzt.
