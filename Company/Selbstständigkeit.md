@@ -82,7 +82,7 @@ Hier hilft die Erkenntnis, dass man mit dem Schritt in die berufliche Unabhängi
 ### Fakten:
 Persönliche Kontakte sind für Freiberufler entscheidend. 70 Prozent gaben in der VGSD-Umfrage an, ihren Umsatz überwiegend mit Stammkunden zu erwirtschaften. 77 Prozent gewinnen neue Aufträge vor allem, indem sie von zufriedenen Kunden weiterempfohlen wurden. 
 
-### Fazit
+## Fazit
 Selbstständigkeit ist nicht per besser oder schlechter als eine Festanstellung. Sie muss auch kein Dauerzustand sein. Aber für viele Menschen gibt es nach dieser beruflichen Freiheit kein Zurück mehr. „Würden Sie sich wieder selbstständig machen?“, wurde beim Selbstständigen-Report gefragt. 86 Prozent der Teilnehmer antworteten mit Ja.
 
 Nina Jerzy
