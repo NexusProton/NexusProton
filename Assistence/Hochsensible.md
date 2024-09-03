@@ -1,6 +1,6 @@
 # Hochsensible
 
-Was Hochsensible nicht tun sollten und was sie besonders herausfordert. Hier sind die 15 wichtigsten Punkte:
+Was Hochsensible besonders herausfordert. Hier sind die 15 wichtigsten Punkte:
 
 1. **Lärm ignorieren**: Hochsensible nehmen Geräusche intensiver wahr, was schnell zu Überstimulation führt.
 2. **Multitasking**: Mehrere Aufgaben gleichzeitig überfordern sie, da ihr Gehirn Informationen tiefgehend verarbeitet.
