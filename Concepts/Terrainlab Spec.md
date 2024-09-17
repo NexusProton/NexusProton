@@ -48,3 +48,27 @@ Kein Problem! Ich fasse zusammen, was deine drei Klassen tun und welche Funktion
 3. **Fliegende Kamera**: Mit den aktuellen Bewegungseingaben (Maus und Tastatur) kannst du die Kamera frei bewegen und drehen, was für die Erkundung des Labyrinths nützlich ist.
 
 Gibt es spezifische Teile des Codes, zu denen du Fragen hast oder die du optimieren möchtest?
+
+### Es scheint, dass wir ein paar grundlegende Überlegungen und Optimierungen vornehmen sollten, um die Ordnung im Projekt zu verbessern:
+
+1. **Terrain-Kollisionsverhalten**:
+   - Der Terrain Collider ist in Unity grundsätzlich undurchdringbar, solange die Objekte darauf Kollisionen erkennen können. Der Layer "Obstacle" sollte klar definiert werden und nicht einfach auf "Default" gesetzt bleiben. Überlege, den Layer speziell für Hindernisse oder das Terrain zuzuweisen, falls du später mit verschiedenen Layern arbeiten möchtest.
+   - Für die Wälle, die durch Anhebung des Terrains entstehen, sollte der Terrain Collider bereits greifen. Du musst also keine zusätzlichen Kollisionsobjekte für diese Wälle einfügen, solange sie hoch genug sind.
+
+2. **Schiff-Kollisionen**:
+   - Schiffe mit einem **Mesh Collider** sind oft rechenintensiv und komplizierter, insbesondere wenn du eine Kollisionserkennung gegen das Terrain und andere Schiffe benötigst.
+   - Es wäre möglicherweise besser, **Rigidbody-Komponenten** hinzuzufügen, um physikbasierte Bewegung und Kollisionen zu handhaben. Zusammen mit einem **Box- oder Sphere-Collider** könnte das effizienter sein. 
+   - Wenn die Schiffe keine tatsächliche Physikinteraktion haben müssen (z. B. mit Schwerkraft), kannst du den Rigidbody auf **kinematisch** setzen, um physikalische Berechnungen zu vereinfachen.
+
+3. **Tagging und Layer-System**:
+   - Für die zukünftige Verwaltung solltest du dir überlegen, verschiedene Tags oder Layers für unterschiedliche Bereiche des Terrains (Wände, Pfade) zu verwenden. Zum Beispiel könnte das Terrain selbst auf einem speziellen Layer sein, während Wände und andere Hindernisse explizit markiert oder mit Tags versehen werden.
+   - Die Schiffe könnten entweder den **"Obstacle" Layer** verwenden (wenn sie Hindernisse darstellen sollen) oder einen eigenen Layer bekommen, um sie einfacher von anderen Objekten zu unterscheiden.
+
+4. **Raycast für Kollisionserkennung**:
+   - Da die Wälle durch Anhebung des Terrains entstehen, könntest du prüfen, ob das aktuelle Raycasting gegen den richtigen Layer läuft. Der **Layer "Obstacle"** sollte auf das Terrain oder die Wälle angewendet werden, um sicherzustellen, dass die Schiffe die Wände erkennen.
+   - Falls das Terrain als Obstacle dient, stelle sicher, dass der **Terrain Collider** in deinem Raycast mit dem passenden Layer verknüpft ist, um die Bewegung der Schiffe korrekt zu steuern.
+
+5. **Verfeinerung der Bewegungslogik**:
+   - Für die Schiffe könnte eine **intelligente Bewegungslogik** notwendig sein, die nicht nur zufällig eine Richtung wählt, sondern auch abhängig von der Umgebung sinnvoll handelt. Eventuell könnten Wegpunkte oder eine Art A* (A-Star) Pfadfindungsalgorithmus für das Navigieren durch das Labyrinth sinnvoll sein, wenn du präzise Steuerungen möchtest.
+
+Lass mich wissen, welche Punkte du priorisieren möchtest, oder ob du weitere Ideen hast!
