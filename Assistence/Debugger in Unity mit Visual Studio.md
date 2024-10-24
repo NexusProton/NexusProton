@@ -16,7 +16,8 @@ Normalerweise wird Visual Studio mit den "Visual Studio Tools for Unity" geliefe
 1. **Zurück zu Unity**: Kehre zu Unity zurück und klicke auf `Play`, um das Spiel zu starten.
 2. **Zurück zu Visual Studio**: Wechsel zu Visual Studio und klicke auf `Debug` > `Attach to Unity`. Alternativ kannst du auf das kleine grüne Dreieck mit einer Datenverbindung klicken (im Debug-Menü), um Visual Studio mit Unity zu verbinden.
 3. Sobald Visual Studio verbunden ist, wird das Spiel an den von dir gesetzten Haltepunkten anhalten, sodass du die aktuellen Variablen und Zustände inspizieren kannst.
-   (wenn du zurück zu Unity gewechselt hast, mußt du idR das Spiel neu starten)
+
+- wenn du zurück zu Unity gewechselt hast, mußt du idR das Spiel neu starten!
 
 ### Schritt 5: Debugging durchführen
 - **Schrittweise ausführen** (`F10`): Führe den Code Zeile für Zeile aus.
